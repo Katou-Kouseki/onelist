@@ -3,6 +3,8 @@ name: release_docker
 on:
   release:
     types: [ published ]
+  watch:
+    types: [started]
 
 jobs:
   release_docker:
